@@ -10,3 +10,4 @@ env/
 .venv/
 firmware-precompiled
 logs
+cache
