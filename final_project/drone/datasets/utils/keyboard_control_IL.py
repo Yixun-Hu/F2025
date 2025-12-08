@@ -21,14 +21,13 @@ from cflib.crazyflie.log import LogConfig
 from cflib.positioning.motion_commander import MotionCommander
 
 # Configuration
-group_number = 80
+group_number = 13
 CROP_SIZE = 80
 URI = f'radio://0/{group_number}/2M'
 camera_index = 1  # Adjust if needed
 CONTROL_RATE_HZ = 20  # Adjust if needed
 VELOCITY = 0.2
 NUM_TRIALS = 50
-
 # Only output errors from the logging framework
 logging.basicConfig(level=logging.ERROR)
 
@@ -519,6 +518,8 @@ def prompt_trial_number(output_dir='imitation_data', max_trials=NUM_TRIALS):
 
 def main():
     # Prompt for trial number
+    print(f"group number: {group_number}")
+    print(f"NUM_TRIALS: {NUM_TRIALS}")
     trial_number = prompt_trial_number(max_trials=NUM_TRIALS)
     
     print("\nInitializing...")

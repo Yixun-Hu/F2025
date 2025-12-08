@@ -21,7 +21,7 @@ from cflib.crazyflie.log import LogConfig
 from cflib.positioning.motion_commander import MotionCommander
 
 # Configuration
-group_number = 80
+group_number = 13
 CROP_SIZE = 80
 URI = f'radio://0/{group_number}/2M'
 camera_index = 1  # Adjust if needed
