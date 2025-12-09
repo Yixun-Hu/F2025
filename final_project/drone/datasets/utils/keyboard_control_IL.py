@@ -22,9 +22,9 @@ from cflib.positioning.motion_commander import MotionCommander
 
 # Configuration
 group_number = 13
-CROP_SIZE = 110
+CROP_SIZE = 80
 URI = f'radio://0/{group_number}/2M'
-camera_index = 1  # Adjust if needed
+camera_index = 0  # Adjust if needed
 CONTROL_RATE_HZ = 20  # Adjust if needed
 VELOCITY = 0.2
 NUM_TRIALS = 50
