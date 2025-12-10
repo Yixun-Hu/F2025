@@ -27,7 +27,7 @@ URI = f'radio://0/{group_number}/2M'
 camera_index = 0  # Adjust if needed
 CONTROL_RATE_HZ = 20  # Adjust if needed
 VELOCITY = 0.2
-NUM_TRIALS = 50
+NUM_TRIALS = 150
 # Only output errors from the logging framework
 logging.basicConfig(level=logging.ERROR)
 

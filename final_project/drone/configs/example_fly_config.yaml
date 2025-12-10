@@ -3,19 +3,18 @@ defaults:
   # - models: continuous_action_model
 
 # Model configuration
-ckpt_path: ../checkpoints/drone_control_model_classification.pth
-
+ckpt_path: /Users/yixunhu/Home/pton_ECE_G1/MAE_549_Intro_to_Robo/HW_MAE_549/F2025/final_project/drone/checkpoints/best_drone_model_our_stack_state_discrete_pretrain_1210(1).pth
 # Data configuration
-data_dir: datasets/imitation_data
+data_dir: /Users/yixunhu/Home/pton_ECE_G1/MAE_549_Intro_to_Robo/HW_MAE_549/F2025/final_project/drone/datasets/imitation_data
 image_size: [224, 224]
 augment: False # Always false for inference
 
 # Logging configuration
-log_dir: recordings
+log_dir: logs
 
 # Drone configuration
-group_number: 80 # Your group number
-camera_id: 1
+group_number: 13 # Your group number
+camera_id: 0
 hover_height: 0.5
-fly_steps: 100
+fly_steps: 2000
 crop_top: 80 # How much of the top of the camera image to crop out
