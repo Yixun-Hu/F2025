@@ -3,7 +3,8 @@ defaults:
   # - models: continuous_action_model
 
 # Model configuration
-ckpt_path: /Users/yixunhu/Home/pton_ECE_G1/MAE_549_Intro_to_Robo/HW_MAE_549/F2025/final_project/drone/checkpoints/best_drone_model_our_stack_state_discrete_pretrain_1210(1).pth
+ckpt_path: /Users/yixunhu/Home/pton_ECE_G1/MAE_549_Intro_to_Robo/HW_MAE_549/F2025/final_project/drone/checkpoints/best_drone_model_our_stack_state_discrete_pretrain_1210(3).pth
+
 # Data configuration
 data_dir: /Users/yixunhu/Home/pton_ECE_G1/MAE_549_Intro_to_Robo/HW_MAE_549/F2025/final_project/drone/datasets/imitation_data
 image_size: [224, 224]
