@@ -4,4 +4,4 @@ action_dim: 4
 num_bins: 11
 action_low: -1.0
 action_high: 1.0
-state_dim: 9
+state_dim: 0
